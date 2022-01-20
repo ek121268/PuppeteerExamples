@@ -11,6 +11,6 @@ const { waitForUrl } = require('selenium-webdriver/http/util');
     page.click('.uppy-FileInput-btn')
   ])
   await fileChooser.accept(['Packtpub.png']);
-  await browser.close();
+//  await browser.close();
    
 })();
